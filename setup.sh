@@ -13,6 +13,10 @@ sudo apt-get update
 sudo apt-get install -y kubectl
 echo "##### Kubectl Setup Completed #####"
 
+echo "##### Kubectx Setup Start #####"
+sudo apt install kubectx
+echo "##### Kubectx Setup Completed #####"
+
 echo "##### MicroK8s Setup Start #####"
 sudo snap install microk8s --classic
 echo "##### MicorK8s Setup Completed #####"
@@ -59,7 +63,10 @@ echo "##### Git cola Setup Start #####"
 sudo apt-get install git-cola
 echo "##### Git cola Setup Completed #####"
 
-
+echo "##### Redis Setup Start #####"
+sudo snap install redis
+sudo apt-get install redis-tools
+echo "##### Redis Setup Completed #####"
 
 echo "##### Docker Setup Start #####"
 sudo apt install docker.io

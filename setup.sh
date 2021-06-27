@@ -25,6 +25,10 @@ echo "##### Java Setup Start #####"
 sudo apt install default-jdk
 echo "##### Java Setup Completed #####"
 
+echo "##### Python Pip Setup Start #####"
+sudo apt install python3-pip
+echo "##### Python Pip Setup Completed #####"
+
 echo "##### IntelliJ Setup Start #####"
 sudo snap install intellij-idea-community --classic
 echo "##### IntelliJ Setup Completed #####"

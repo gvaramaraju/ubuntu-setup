@@ -55,6 +55,10 @@ echo "##### Flutter Setup Start #####"
 sudo snap install flutter --classic
 echo "##### Flutter Setup Completed #####"
 
+echo "##### Android Studio Setup Start #####"
+sudo snap install android-studio --classic
+echo "##### Android Studio Setup Completed #####"
+
 echo "##### Fast Setup Start #####"
 sudo snap install fast
 echo "##### Fast Setup Completed #####"
@@ -71,6 +75,10 @@ echo "##### Redis Setup Start #####"
 sudo snap install redis
 sudo apt-get install redis-tools
 echo "##### Redis Setup Completed #####"
+
+echo "##### Htop Setup Start"
+sudo snap install htop
+echo "##### Htop Setup Complete"
 
 echo "##### Docker Setup Start #####"
 sudo apt install docker.io
